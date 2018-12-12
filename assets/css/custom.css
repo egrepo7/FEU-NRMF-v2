@@ -7,8 +7,13 @@
 
 
 /********* GLOBAL *********/
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
 .navbar {
     padding: 0;
+    text-transform: uppercase;
 }
 
 .h-style {
@@ -38,7 +43,7 @@
     font-weight: 700;
 }
 .active {
-    border-top: 2px solid white;
+    border-top: 2px solid #72a200;
 }
 
 footer  {
@@ -94,7 +99,9 @@ footer  {
 .navbar a {
     color: white;
     font-family: 'Raleway';
+    font-size: 13px;
     margin: 0 12px;
+    font-weight: 400;
 }
 
 .navbar a:hover {
@@ -141,6 +148,10 @@ nav.navbar.shrink .navbar-toggler {
   margin: 8px 15px 8px 0;
   padding: 4px 5px;
   transition: all 1.5s ease;
+}
+
+.nav-item:hover {
+    right: 2px;
 }
 
 .feature-img,
@@ -347,6 +358,18 @@ nav.navbar.shrink .navbar-toggler {
 .officer-profile p {
     font-style: italic;
 }
+
+/******* ANNOUNCEMENTS   ****** */
+.announcements {
+    margin-top: 82px;
+    padding: 60px 0;
+}
+
+#primary {
+    padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
